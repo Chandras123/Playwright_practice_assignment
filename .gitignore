@@ -16,3 +16,17 @@ artifacts/
 
 # Environment variables and secrets
 .env
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Playwright output
+test-results/
+playwright-report/
