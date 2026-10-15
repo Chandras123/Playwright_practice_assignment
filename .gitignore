@@ -1,0 +1,18 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Playwright generated files
+test-results/
+playwright-report/
+blob-report/
+artifacts/
+
+# Environment variables and secrets
+.env
